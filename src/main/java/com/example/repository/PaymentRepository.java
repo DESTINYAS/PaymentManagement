@@ -14,6 +14,7 @@ import java.util.Optional;
  * - Enables JPA-based database access
  * - Supports custom query methods if needed
  */
+
 @Repository // Marks this as a Spring Data repository
 public interface PaymentRepository extends JpaRepository<Payment, Long> {
 
